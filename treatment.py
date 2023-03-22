@@ -17,7 +17,7 @@ from openpyxl import Workbook, load_workbook
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 arqs = os.listdir() #Diretorio atual
 extensao = ".zip" #Definimos a extensão do objeto
-diretorio = r'C:\Users\vitor.magalhaes\Desktop\canudo\V1\PDF\ELW_01'
+diretorio = r''
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 for file in arqs: #Descompactando os arquivos de dentro do zip e os enviando para uma pasta 
     if zipfile.is_zipfile(file): 
